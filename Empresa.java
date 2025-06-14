@@ -5,8 +5,8 @@ public class Empresa {
         Funcionario g = new Gerente(2000, 1000); // Gerente com salário base mais bônus fixo de 1000
 
         System.out.println("Salário do Vendedor: " + obterSalarioDoFuncionario(v)); // Chama Vendedor
-        System.out.println("Salário do Vendedor: " + obterSalarioDoFuncionario(f)); // Chama Freelancer
-        System.out.println("Salário do Vendedor: " + obterSalarioDoFuncionario(g)); // Chama Gerente
+        System.out.println("Salário do FreeLancer: " + obterSalarioDoFuncionario(f)); // Chama Freelancer
+        System.out.println("Salário do Gerente: " + obterSalarioDoFuncionario(g)); // Chama Gerente
     }
 
     public static double obterSalarioDoFuncionario(Funcionario funcionario) {
